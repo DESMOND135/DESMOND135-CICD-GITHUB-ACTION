@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h2>Insurance Cost Prediction</h2>
+    <ul>
+        <li><strong>Age:</strong> {{ result.age }}</li>
+        <li><strong>Sex:</strong> {{ result.sex }}</li>
+        <li><strong>BMI:</strong> {{ result.bmi }}</li>
+        <li><strong>Smoker:</strong> {{ result.smoker }}</li>
+        <li><strong>Region:</strong> {{ result.region }}</li>
+        <li><strong>Children:</strong> {{ result.children }}</li>
+        <li><strong>Predicted Charges:</strong> ${{ result.charges }}</li>
+    </ul>
+
+    <a href="/">Back to Form</a>
+</body>
+</html>
+
